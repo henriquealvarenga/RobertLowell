@@ -26,10 +26,11 @@ jobs:
           r-version: '4.4'
           use-public-rspm: true
 
-      - name: Instalar dependências R (renv)
-        uses: r-lib/actions/setup-renv@v2
-        with:
-          cache-version: 1
+      - name: Instalar pacotes R
+        run: |
+          install.packages(c("knitr", "rmarkdown", "ggplot2", "readr"),
+                           repos = "https://packagemanager.posit.co/cran/latest")
+        shell: Rscript {0}
 
       - name: Compilar o livro
         run: quarto render
