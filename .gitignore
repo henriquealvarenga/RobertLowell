@@ -1,0 +1,19 @@
+# Quarto output
+_book/
+*_files/
+.quarto/
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.Rprofile
+.RData
+
+# renv (manter renv.lock, ignorar bibliotecas instaladas)
+renv/library/
+renv/local/
+renv/cellar/
+renv/staging/
+
+# macOS
+.DS_Store

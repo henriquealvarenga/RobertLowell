@@ -1,0 +1,29 @@
+project:
+  type: book
+
+book:
+  title: "A Bipolaridade de Robert Lowell"
+  author: "Dr. Henrique Alvarenga da Silva"
+  date: "6/21/2024"
+  chapters:
+    - index.qmd
+    - 1-biografia.qmd
+    - 2-bipolaridade.qmd
+    - 3-crises.qmd
+    - 4-estabilidade.qmd
+    - 5-ultimos_anos.qmd
+    - 6-historia_familiar.qmd
+    - 7-conclusao.qmd
+    - 8-references.qmd
+    - 9-about.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
