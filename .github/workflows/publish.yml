@@ -33,7 +33,7 @@ jobs:
         shell: Rscript {0}
 
       - name: Compilar o livro
-        run: quarto render
+        run: quarto render --to html
 
       - name: Preparar para GitHub Pages
         uses: actions/upload-pages-artifact@v3
