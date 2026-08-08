@@ -12,8 +12,7 @@ book:
   favicon: cover.png
   page-footer:
     center: |
-      Dr. Henrique Alvarenga da Silva · Médico Psiquiatra<br>
-      CRM-MG 31.778 · RQE 8381 · Professor de Medicina (UFSJ e UNIPTAN)<br>
+      Dr. Henrique Alvarenga da Silva · Médico Psiquiatra · CRM-MG 31.778 · RQE 8381<br>
       [henriquealvarenga.com](https://henriquealvarenga.com)
   chapters:
     - index.qmd
@@ -35,6 +34,7 @@ format:
     canonical-url: true
     include-in-header:
       - file: _includes/autor.html
+      - file: _includes/rodape.html
   pdf:
     documentclass: scrreprt
 
