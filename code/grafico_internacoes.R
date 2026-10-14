@@ -1,9 +1,9 @@
 library(readr)
 library(ggplot2)
 
-internacoes <- read_csv(file = "data/days_in_hospital.csv")
+internacoes <- read_csv(file = "data/days_in_hospital.csv", show_col_types = FALSE)
 
-ggplot(data=internacoes, aes(x=ano, y=dias)) +
+grafico <- ggplot(data=internacoes, aes(x=ano, y=dias)) +
   geom_bar(stat = "identity", fill="darkred", col="black") +
   scale_x_continuous(breaks = seq(1917, 1977, by = 1),
                      guide = guide_axis(angle = 90)) +
@@ -19,3 +19,12 @@ ggplot(data=internacoes, aes(x=ano, y=dias)) +
   annotate("rect", xmin = 1967, xmax = 1975, ymin = 0, ymax = 105, alpha = 0.3) +
   annotate("rect", xmin = 1948, xmax = 1977.5, ymin = 0, ymax = 365, alpha = 0.1) +
   theme_classic()
+
+ggsave(
+  filename = "images/internacoes.png",
+  plot = grafico,
+  width = 16,
+  height = 8,
+  dpi = 150,
+  bg = "white"
+)
