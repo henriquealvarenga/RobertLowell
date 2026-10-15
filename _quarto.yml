@@ -5,11 +5,12 @@ lang: pt-BR
 
 book:
   title: "A Bipolaridade de Robert Lowell"
+  subtitle: "Um resumo didático do livro Robert Lowell: Setting the River on Fire, de Kay Redfield Jamison"
   author: "Dr. Henrique Alvarenga da Silva"
   date: "6/21/2024"
   site-url: https://henriquealvarenga.com/RobertLowell
-  description: "A trajetória do transtorno bipolar do poeta Robert Lowell: as crises, as internações, a chegada do lítio e a história familiar. Estudo de psicopatologia por Dr. Henrique Alvarenga da Silva."
-  favicon: cover.png
+  description: "Resumo didático do livro de Kay Redfield Jamison sobre o transtorno bipolar do poeta Robert Lowell: as crises, as internações, a chegada do lítio e a história familiar. Por Dr. Henrique Alvarenga da Silva."
+  favicon: favicon.svg
   page-footer:
     center: |
       Dr. Henrique Alvarenga da Silva · Médico Psiquiatra · CRM-MG 31.778 · RQE 8381<br>
