@@ -35,6 +35,8 @@ format:
     include-in-header:
       - file: _includes/autor.html
       - file: _includes/rodape.html
+    include-before-body:
+      - file: _includes/aviso-site-novo.html
   pdf:
     documentclass: scrreprt
 
