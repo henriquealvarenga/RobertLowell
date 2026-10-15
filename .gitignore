@@ -20,3 +20,7 @@ renv/staging/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# PDFs de apoio (não publicar)
+PDFs/
+*.pdf
